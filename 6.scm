@@ -8,19 +8,13 @@
 			sum
 			(n-sum-squared (+ sum (square counter) )
 						   (+ counter 1)
-						   max
-			)
-		)
-)
+						   max)))
 
 (define (sum-of-n sum counter max)
       (if (> counter max)
           sum
           (sum-of-n (+ sum counter)
           			(+ counter 1)
-         			max
-          )
-      )
-)
+         			max)))
 
 (display (- (square(sum-of-n 0 1 100)) (n-sum-squared 0 1 100)))
