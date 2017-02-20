@@ -1,5 +1,4 @@
 -- Euleur 5: Smallest Multiple --
--- It seems this problem is too large for lua (works up to n = 17, but I'm pretty sure this is correct --
 
 function is_divisible(n, number)
 	for i = 1, n do
